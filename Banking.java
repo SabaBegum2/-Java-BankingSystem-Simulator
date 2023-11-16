@@ -1,14 +1,3 @@
-/****************************************************************************************************
- * 
- * Name: Saba Begum
- * Access ID: Hg7548
- * Date: 10/03/2023
- * 
- ***************************************************************************************************/
-
-
-
-package Lab04;
 import java.lang.ProcessHandle.Info;
 import java.util.Scanner;
 
@@ -46,10 +35,10 @@ public class BankAccount {
 	            		System.out.println("Customer's phone number :");
 	            		Info [i][j+3][k+3][l+3] = sc.next();
 	            	}
-	            	}
-	            	}
-	        	}
-	        	}
+	            }
+	        }
+	}
+}
 		public void displayAccount() {
 			String Info [][][][] = new String [100][100][100][100];
 	    	for(int i=0;i<Info.length;i++ ){
